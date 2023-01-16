@@ -1,3 +1,170 @@
 header {
-  background-color: rgb(78, 57, 194);
+  height: 80px;
+  background-color: #000000;
+  align-items: center;
+  display: flex;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.header-wrapper {
+  width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-wrapper {
+  width: 82px;
+  height: 52px;
+  margin-left: 220px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19.0145px;
+  line-height: 120%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.logo-picture {
+  background-image: url(../../assets/images/bamboo.svg);
+  width: 7.03px;
+  height: 20.98px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 24.64px;
+  left: 13.23px;
+}
+
+header nav {
+  width: 526px;
+  margin-right: 709px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-menu-item a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.nav-menu-item a.activ,
+.footer-nav ul li a.activ {
+  color: #f9804b;
+  cursor: default;
+}
+
+.nav-menu-item a:hover,
+.footer-nav ul li a:hover {
+  color: #f9804b;
+}
+
+@media only screen and (max-width: 1580px) {
+  .wrapper-first-scr {
+    height: 584px;
+  }
+
+  .header-wrapper {
+    width: 1000px;
+  }
+
+  .logo-wrapper {
+    margin-left: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+  }
+
+  header nav {
+    width: 486px;
+    margin-right: 339px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .header-wrapper {
+    width: 640px;
+  }
+
+  header {
+    height: 34px;
+  }
+
+  .header-wrapper .logo-wrapper {
+    width: 46.93px;
+    height: 29.03px;
+    margin-left: 20.07px;
+    border: none;
+  }
+
+  .header-wrapper .logo-text {
+    font-size: 12.2899px;
+  }
+
+  .header-wrapper .logo-picture {
+    position: absolute;
+    background-image: url(../../../assets/images/bamboo.svg);
+    background-repeat: no-repeat;
+    width: 10.54px;
+    height: 13.56px;
+    left: 2.48px;
+    top: 10.99px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+    width: 18px;
+    height: 10px;
+    cursor: pointer;
+  }
+
+  header nav {
+    width: 18px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .header-wrapper {
+    width: 320px;
+  }
+
+  header {
+    height: 34px;
+  }
+
+  .header-wrapper .logo-wrapper {
+    margin-left: 10.07px;
+    border: none;
+  }
+
+  header nav {
+    margin-right: 10px;
+  }
 }
