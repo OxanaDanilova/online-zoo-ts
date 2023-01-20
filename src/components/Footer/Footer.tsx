@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import './Footer.scss';
 
@@ -7,10 +8,10 @@ export default function Footer() {
     <footer>
       <div className="footer-wrapper">
         <div className="footer-first-row">
-          <a href="#" className="logo-wrapper">
+          <NavLink to="/" className="logo-wrapper">
             <div className="logo-picture"></div>
             <p className="logo-text">PetStory online</p>
-          </a>
+          </NavLink>
 
           <ul className="socials-nets-icons">
             <li>
@@ -204,24 +205,28 @@ export default function Footer() {
           <nav className="footer-nav">
             <ul>
               <li>
-                <a href="#" className="activ">
-                  About
-                </a>
+                <NavLink to="/">About</NavLink>
               </li>
               <li>
-                <a href="pages/map/map.html">Map</a>
+                <NavLink to="/map">Map</NavLink>
               </li>
               <li>
-                <a href="pages/zoos/panda/panda.html">Zoos</a>
+                <NavLink to="/panda">Zoos</NavLink>
               </li>
               <li>
-                <a href="">Contact us</a>
+                <NavLink to="/">Contact us</NavLink>
               </li>
             </ul>
           </nav>
 
           <div className="wrapper-author-rss">
             <p className="author">Designed by Alisa Samborskaya</p>
+            <p className="author">
+              Developed by{' '}
+              <a href="https://github.com/OxanaDanilova" target="_blank" rel="noreferrer">
+                Oxana Danilova
+              </a>
+            </p>
             <p className="rss">©RSSchool & ©Yem Digital 2021</p>
           </div>
         </div>

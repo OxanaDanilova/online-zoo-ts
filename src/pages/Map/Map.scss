@@ -1,0 +1,948 @@
+.map-section {
+  height: 1200px;
+  background: #eaf7fe;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.map-wrapper {
+  display: flex;
+  width: 1600px;
+  justify-content: center;
+  position: relative;
+}
+
+.map {
+  margin-top: 104px;
+  height: 714px;
+  width: 1083px;
+  background-image: url(../../../public/assets/images/map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.first-eagle-icon {
+  width: 44px;
+  height: 44px;
+  background-image: url(../../../public/assets/icons/eagle1-icon.png);
+  position: absolute;
+  left: 91px;
+  top: 368px;
+}
+
+.second-eagle-icon {
+  width: 50px;
+  height: 22px;
+  background-image: url(../../../public/assets/icons/eagle2-icon.png);
+  position: absolute;
+  left: 125px;
+  top: 403px;
+}
+
+.crocodile-icon {
+  height: 20px;
+  width: 75px;
+  background-image: url(../../../public/assets/icons/lonely-crocodile-icon.png);
+  position: absolute;
+  left: 244px;
+  top: 417px;
+}
+
+.gorillas-icon {
+  height: 40px;
+  width: 50px;
+  background-image: url(../../../public/assets/icons/gorillas-icon.png);
+  position: absolute;
+  left: 542px;
+  top: 502px;
+}
+
+.one-panda-icon {
+  height: 49px;
+  width: 37px;
+  background-image: url(../../../public/assets/icons/panda-icon.png);
+  position: absolute;
+  left: 816px;
+  top: 327px;
+}
+
+.pandas-icon {
+  height: 42px;
+  width: 46px;
+  background-image: url(../../../public/assets/icons/pandas-icon.png);
+  position: absolute;
+  left: 809px;
+  top: 394px;
+}
+
+.map svg {
+  height: 32px;
+  width: 26px;
+  cursor: pointer;
+}
+
+.map svg:hover path {
+  fill: #f9804b;
+}
+
+.eagle-point {
+  position: absolute;
+  left: 136px;
+  top: 362px;
+}
+
+.crocodile-point {
+  position: absolute;
+  left: 252px;
+  top: 379px;
+}
+
+.gorillas-point {
+  position: absolute;
+  left: 541px;
+  top: 465px;
+}
+
+.one-panda-point {
+  position: absolute;
+  left: 854px;
+  top: 334px;
+}
+
+.pandas-point {
+  position: absolute;
+  left: 846px;
+  top: 381px;
+}
+
+.map p {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #4f5352;
+}
+
+.los-angeles {
+  position: absolute;
+  top: 375px;
+  left: 161px;
+}
+
+.usa {
+  position: absolute;
+  top: 338px;
+  left: 145px;
+}
+
+.congo {
+  position: absolute;
+  top: 482px;
+  left: 564px;
+}
+
+.china {
+  position: absolute;
+  top: 369px;
+  left: 768px;
+}
+
+.florida {
+  position: absolute;
+  top: 398px;
+  left: 274px;
+}
+
+.popup {
+  height: 109px;
+  width: 159px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 5px;
+  position: relative;
+  display: grid;
+  z-index: 10;
+}
+
+.popup::after {
+  position: absolute;
+  content: '';
+  width: 11px;
+  height: 10px;
+  top: -6px;
+  left: 55px;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000 transparent transparent #000000;
+  box-sizing: border-box;
+  border-radius: 0px;
+  transform: matrix(0.5, 0.7, -0.38, 0.71, 1, 1);
+}
+
+.popup-alligators {
+  position: absolute;
+  top: 444px;
+  left: 228px;
+  visibility: hidden;
+}
+
+.popup-eagles {
+  position: absolute;
+  top: 437px;
+  left: 100px;
+  visibility: hidden;
+}
+
+.popup-gorillas {
+  position: absolute;
+  top: 552px;
+  left: 502px;
+  visibility: hidden;
+}
+
+.popup-pandas {
+  position: absolute;
+  top: 443px;
+  left: 772px;
+  visibility: hidden;
+}
+
+.popup p {
+  margin-left: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  text-align: left;
+}
+
+.eagle-block,
+.crocodile-block,
+.gorillas-block,
+.panda-block {
+  cursor: pointer;
+}
+
+.eagle-block:hover .popup-eagles,
+.crocodile-block:hover .popup-alligators,
+.gorillas-block:hover .popup-gorillas,
+.panda-block:hover .popup-pandas,
+.popup-eagles:hover .popup-eagles,
+.popup-alligators:hover .popup-alligators,
+.popup-gorillas:hover .popup-gorillas,
+.popup-pandas:hover .popup-pandas {
+  visibility: visible;
+}
+
+.popup-eagles:hover,
+.popup-alligators:hover,
+.popup-gorillas:hover,
+.popup-pandas:hover {
+  visibility: visible;
+}
+
+.crocodile-block:hover svg path,
+.eagle-block:hover svg path,
+.gorillas-block:hover svg path,
+.panda-block:hover svg path {
+  fill: #f9804b;
+}
+
+.animal {
+  margin-top: 10px;
+}
+
+.watch-online {
+  margin-top: 11px;
+  height: 31px;
+  width: 136px;
+  border-radius: 5px;
+  border: none;
+  background: #f1f3f2;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4b9200;
+  cursor: pointer;
+  justify-self: center;
+}
+
+.scale-wrapper {
+  height: 118px;
+  width: 54px;
+  position: absolute;
+  top: 780px;
+  right: 40px;
+  border-radius: 5px;
+  display: grid;
+  justify-content: space-between;
+}
+
+.scale-sign {
+  width: 54px;
+  height: 54px;
+  background: #ffffff;
+  border-radius: 5px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.scale-sign:hover svg path {
+  fill: #4b9200;
+}
+
+@media only screen and (max-width: 1580px) {
+  .wrapper-first-scr {
+    height: 584px;
+  }
+
+  .map-section {
+    height: 747px;
+    background: #eaf7fe;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+  }
+
+  .map-wrapper {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    position: relative;
+  }
+
+  .map {
+    margin-top: 89.43px;
+    height: 618.24px;
+    width: 937.81px;
+    background-image: url(../../../public/assets/images/map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .first-eagle-icon {
+    width: 38px;
+    height: 38px;
+    background-image: url(../../../public/assets/icons/eagle1-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 80px;
+    top: 318px;
+  }
+
+  .second-eagle-icon {
+    width: 43px;
+    height: 19px;
+    background-image: url(../../../public/assets/icons/eagle2-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 108px;
+    top: 348px;
+  }
+
+  .crocodile-icon {
+    height: 17px;
+    width: 64px;
+    background-image: url(../../../public/assets/icons/lonely-crocodile-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 211px;
+    top: 360px;
+  }
+
+  .gorillas-icon {
+    height: 34px;
+    width: 43px;
+    background-image: url(../../../public/assets/icons/gorillas-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 469px;
+    top: 434px;
+  }
+
+  .one-panda-icon {
+    height: 42px;
+    width: 32px;
+    background-image: url(../../../public/assets/icons/panda-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 706px;
+    top: 282px;
+  }
+
+  .pandas-icon {
+    height: 36px;
+    width: 39px;
+    background-image: url(../../../public/assets/icons/pandas-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 700px;
+    top: 340px;
+  }
+
+  .map svg {
+    height: 27px;
+    width: 22px;
+    cursor: pointer;
+  }
+
+  .eagle-point {
+    position: absolute;
+    left: 117px;
+    top: 313px;
+  }
+
+  .crocodile-point {
+    position: absolute;
+    left: 217px;
+    top: 327px;
+  }
+
+  .gorillas-point {
+    position: absolute;
+    left: 468px;
+    top: 402px;
+  }
+
+  .one-panda-point {
+    position: absolute;
+    left: 739px;
+    top: 289px;
+  }
+
+  .pandas-point {
+    position: absolute;
+    left: 734px;
+    top: 329px;
+  }
+
+  .map p {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #4f5352;
+  }
+
+  .los-angeles {
+    position: absolute;
+    top: 324px;
+    left: 138px;
+  }
+
+  .usa {
+    position: absolute;
+    top: 292px;
+    left: 125px;
+  }
+
+  .congo {
+    position: absolute;
+    top: 417px;
+    left: 487px;
+  }
+
+  .china {
+    position: absolute;
+    top: 319px;
+    left: 664px;
+  }
+
+  .florida {
+    position: absolute;
+    top: 344px;
+    left: 236px;
+  }
+
+  .popup {
+    height: 109px;
+    width: 159px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 5px;
+    position: relative;
+    display: grid;
+    z-index: 10;
+  }
+
+  .popup p {
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    text-align: left;
+  }
+
+  .popup-alligators {
+    position: absolute;
+    top: 384px;
+    left: 189px;
+    visibility: hidden;
+  }
+
+  .popup-eagles {
+    position: absolute;
+    top: 381px;
+    left: 81px;
+    visibility: hidden;
+  }
+
+  .popup-gorillas {
+    position: absolute;
+    top: 482px;
+    left: 436px;
+    visibility: hidden;
+  }
+
+  .popup-pandas {
+    position: absolute;
+    top: 385px;
+    left: 692px;
+    visibility: hidden;
+  }
+
+  .scale-wrapper {
+    height: 118px;
+    width: 54px;
+    position: absolute;
+    top: 609px;
+    right: 20px;
+    border-radius: 5px;
+    display: grid;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .map-section {
+    height: 474px;
+    background: #eaf7fe;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+  }
+
+  .map-wrapper {
+    display: flex;
+    width: 640px;
+    justify-content: center;
+    position: relative;
+  }
+
+  .map {
+    margin-top: 57px;
+    height: 392px;
+    width: 594px;
+    background-image: url(../../../public/assets/images/map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .first-eagle-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(../../../public/assets/icons/eagle1-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 50px;
+    top: 201px;
+  }
+
+  .second-eagle-icon {
+    width: 27px;
+    height: 12px;
+    background-image: url(../../../public/assets/icons/eagle2-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 68px;
+    top: 220px;
+  }
+
+  .crocodile-icon {
+    height: 10px;
+    width: 41px;
+    background-image: url(../../../public/assets/icons/lonely-crocodile-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 134px;
+    top: 228px;
+  }
+
+  .gorillas-icon {
+    height: 21px;
+    width: 27px;
+    background-image: url(../../../public/assets/icons/gorillas-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 297px;
+    top: 275px;
+  }
+
+  .one-panda-icon {
+    height: 26px;
+    width: 20px;
+    background-image: url(../../../public/assets/icons/panda-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 447px;
+    top: 179px;
+  }
+
+  .pandas-icon {
+    height: 23px;
+    width: 25px;
+    background-image: url(../../../public/assets/icons/pandas-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 444px;
+    top: 215px;
+  }
+
+  .map svg {
+    height: 17px;
+    width: 14px;
+    cursor: pointer;
+  }
+
+  .eagle-point {
+    position: absolute;
+    left: 74px;
+    top: 198px;
+  }
+
+  .crocodile-point {
+    position: absolute;
+    left: 137px;
+    top: 207px;
+  }
+
+  .gorillas-point {
+    position: absolute;
+    left: 297px;
+    top: 254px;
+  }
+
+  .one-panda-point {
+    position: absolute;
+    left: 468px;
+    top: 183px;
+  }
+
+  .pandas-point {
+    position: absolute;
+    left: 465px;
+    top: 208px;
+  }
+
+  .map p {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #4f5352;
+  }
+
+  .los-angeles {
+    position: absolute;
+    top: 205px;
+    left: 88px;
+  }
+
+  .usa {
+    position: absolute;
+    top: 185px;
+    left: 79px;
+  }
+
+  .congo {
+    position: absolute;
+    top: 264px;
+    left: 309px;
+  }
+
+  .china {
+    position: absolute;
+    top: 202px;
+    left: 421px;
+  }
+
+  .florida {
+    position: absolute;
+    top: 218px;
+    left: 150px;
+  }
+
+  .popup-alligators {
+    position: absolute;
+    top: 240px;
+    left: 97px;
+    visibility: hidden;
+  }
+
+  .popup-eagles {
+    position: absolute;
+    top: 240px;
+    left: 30px;
+    visibility: hidden;
+  }
+
+  .popup-gorillas {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    visibility: hidden;
+  }
+
+  .popup-pandas {
+    position: absolute;
+    top: 243px;
+    left: 400px;
+    visibility: hidden;
+  }
+
+  .popup p {
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    text-align: left;
+  }
+
+  .scale-wrapper {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .map-section {
+    height: 324px;
+    background: #eaf7fe;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+  }
+
+  .map-wrapper {
+    display: flex;
+    width: 320px;
+    justify-content: center;
+    position: relative;
+  }
+
+  .map {
+    margin-top: 38px;
+    height: 267px;
+    width: 320px;
+    background-image: url(../../../public/assets/images/map.png);
+    background-position: center;
+    background-position-x: -28px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .first-eagle-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url(../../../public/assets/icons/eagle1-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 14px;
+    top: 137px;
+  }
+
+  .second-eagle-icon {
+    width: 18px;
+    height: 8px;
+    background-image: url(../../../public/assets/icons/eagle2-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 27px;
+    top: 151px;
+  }
+
+  .crocodile-icon {
+    height: 8px;
+    width: 28px;
+    background-image: url(../../../public/assets/icons/lonely-crocodile-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 71px;
+    top: 156px;
+  }
+
+  .gorillas-icon {
+    height: 15px;
+    width: 18px;
+    background-image: url(../../../public/assets/icons/gorillas-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 180px;
+    top: 188px;
+  }
+
+  .one-panda-icon {
+    height: 18px;
+    width: 13px;
+    background-image: url(../../../public/assets/icons/panda-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 280px;
+    top: 122px;
+  }
+
+  .pandas-icon {
+    height: 15px;
+    width: 17px;
+    background-image: url(../../../public/assets/icons/pandas-icon.png);
+    background-size: cover;
+    position: absolute;
+    left: 280px;
+    top: 147px;
+  }
+
+  .map svg {
+    height: 12px;
+    width: 9px;
+    cursor: pointer;
+  }
+
+  .eagle-point {
+    position: absolute;
+    left: 25px;
+    top: 135px;
+  }
+
+  .crocodile-point {
+    position: absolute;
+    left: 74px;
+    top: 142px;
+  }
+
+  .gorillas-point {
+    position: absolute;
+    left: 175px;
+    top: 175px;
+  }
+
+  .one-panda-point {
+    position: absolute;
+    left: 300px;
+    top: 120px;
+  }
+
+  .pandas-point {
+    position: absolute;
+    left: 293px;
+    top: 142px;
+  }
+
+  .map p {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5px;
+    line-height: 7px;
+    text-align: center;
+    color: #4f5352;
+  }
+
+  .los-angeles {
+    position: absolute;
+    top: 140px;
+    left: 35px;
+  }
+
+  .usa {
+    position: absolute;
+    top: 126px;
+    left: 29px;
+  }
+
+  .congo {
+    position: absolute;
+    top: 180px;
+    left: 185px;
+  }
+
+  .china {
+    position: absolute;
+    top: 138px;
+    left: 263px;
+  }
+
+  .florida {
+    position: absolute;
+    top: 149px;
+    left: 77px;
+  }
+
+  .popup-alligators {
+    position: absolute;
+    top: 165px;
+    left: 35px;
+    visibility: hidden;
+  }
+
+  .popup-eagles {
+    position: absolute;
+    top: 160px;
+    left: 5px;
+    visibility: hidden;
+  }
+
+  .popup-gorillas {
+    position: absolute;
+    top: 210px;
+    left: 140px;
+    visibility: hidden;
+  }
+
+  .popup-pandas {
+    position: absolute;
+    top: 157px;
+    left: 155px;
+    visibility: hidden;
+  }
+
+  .popup p {
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    text-align: left;
+  }
+}
