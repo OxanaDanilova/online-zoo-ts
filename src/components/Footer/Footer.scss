@@ -206,6 +206,16 @@ footer {
   margin-top: 10px;
 }
 
+.author > a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: left;
+}
+
+.author > a:active {
+  color: unset;
+}
+
 @media only screen and (max-width: 1580px) {
   .footer-wrapper {
     margin: 40px auto 50px auto;
