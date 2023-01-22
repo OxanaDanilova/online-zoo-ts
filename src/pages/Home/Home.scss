@@ -15,6 +15,7 @@ body {
 
 .wrapper-first-scr {
   height: 780px;
+  width: 100%;
   background-image: url(../../../public/assets/images/Giant-Panda.png);
   background-position: center;
   background-size: cover;
@@ -22,7 +23,8 @@ body {
 }
 
 .first-section {
-  width: 1600px;
+  // width: 1600px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -83,6 +85,7 @@ body {
   background-color: #ffffff;
   position: relative;
   height: 1829px;
+  width: 100%;
 }
 
 .flower-decor {
@@ -323,6 +326,7 @@ body {
 
 .third-section {
   height: 1004px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -510,6 +514,7 @@ body {
 
 .fourth-section {
   height: 919px;
+  width: 100%;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -1432,7 +1437,7 @@ body {
 
   .first-section {
     height: 187px;
-    width: 100vw; /* 320px; */
+    width: 100%;
     background-image: url(../../../public/assets/images/Giant-Panda.png);
     background-position: center;
     background-size: cover;
@@ -1490,6 +1495,7 @@ body {
   .second-section {
     z-index: 10;
     height: 2054px;
+    width: 100%;
   }
 
   .flower-decor {
@@ -1642,6 +1648,7 @@ body {
 
   .third-section {
     height: 1082px;
+    width: 100%;
   }
 
   .pick-friend-wrapper {
@@ -1742,6 +1749,7 @@ body {
 
   .fourth-section {
     height: 580px;
+    width: 100%;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
