@@ -44,7 +44,7 @@ export default function Sidebar() {
           </NavLink>
         </li>
         <li className="sidebar-menu-item" title="Alligators">
-          <a href="../alligator/alligator.html">
+          <NavLink to="/alligator">
             <svg
               width="64"
               height="30"
@@ -57,10 +57,10 @@ export default function Sidebar() {
                 fill="black"
               />
             </svg>
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-menu-item" title="Pandas">
-          <a href="#" className="selected-item">
+          <NavLink to="/panda">
             <svg
               width="58"
               height="42"
@@ -85,10 +85,10 @@ export default function Sidebar() {
                 fill="#4B9200"
               />
             </svg>
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-menu-item" title="Eagles">
-          <a href="../eagle/eagle.html">
+          <NavLink to="/eagle">
             <svg
               width="54"
               height="48"
@@ -121,10 +121,10 @@ export default function Sidebar() {
                 fill="black"
               />
             </svg>
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-menu-item" title="Two-toed Sloth">
-          <a href="">
+          <NavLink to="/sloth">
             <svg
               width="50"
               height="49"
@@ -157,10 +157,10 @@ export default function Sidebar() {
                 fill="black"
               />
             </svg>
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-menu-item" title="Penguins">
-          <a href="">
+          <NavLink to="/penguins">
             <svg
               width="32"
               height="59"
@@ -175,7 +175,7 @@ export default function Sidebar() {
                 fill="black"
               />
             </svg>
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-menu-item" title="More">
           <a href="">
