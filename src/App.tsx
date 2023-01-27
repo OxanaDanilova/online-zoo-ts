@@ -5,6 +5,7 @@ import MainLayout from './components/MainLayout/MainLayout';
 import Home from './pages/Home/Home';
 import Map from './pages/Map/Map';
 import Panda from './pages/Panda/Panda';
+import Gorilla from './pages/Gorilla/Gorilla';
 
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/map" element={<Map />} />
           <Route path="/panda" element={<Panda />} />
+          <Route path="/gorilla" element={<Gorilla />} />
           {/*      <Route path="/:id" element={<CardPage />} />
         <Route path="/form" element={<FormPage />} />
         
