@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import './Sidebar.scss';
 
@@ -7,7 +8,7 @@ export default function Sidebar() {
     <aside className="sidebar">
       <ul className="sidebar-menu">
         <li className="sidebar-menu-item" title="Gorillas">
-          <a href="../gorilla/gorilla.html">
+          <NavLink to="/gorilla">
             <svg
               width="55"
               height="47"
@@ -40,7 +41,7 @@ export default function Sidebar() {
                 fill="black"
               />
             </svg>
-          </a>
+          </NavLink>
         </li>
         <li className="sidebar-menu-item" title="Alligators">
           <a href="../alligator/alligator.html">

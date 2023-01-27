@@ -1,0 +1,947 @@
+.main-component {
+  display: grid;
+  align-items: center;
+  grid-template-areas:
+    'sidebar first'
+    'sidebar slider'
+    'information information'
+    'donate donate';
+  grid-template-columns: 135px auto;
+}
+
+.main-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section {
+  width: 1162px;
+  margin-top: 40px;
+  justify-self: center;
+  grid-area: first;
+}
+
+.camera-title {
+  width: 668px;
+  height: 62px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 120%;
+  color: #333b41;
+}
+
+.video-animal {
+  margin-top: 10px;
+  width: 1162px;
+  height: 652px;
+}
+
+.ytp-large-play-button .ytp-button {
+  width: 138px;
+  height: 78px;
+}
+
+.animal-slider-section {
+  margin-top: 80px;
+  width: 1324px;
+  height: 210px;
+  grid-area: slider;
+  justify-self: center;
+}
+
+.animal-slider {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+.animal-slider-item {
+  pointer-events: none;
+}
+
+.animal-cam {
+  width: 268px;
+  height: 210px;
+}
+
+.arrow {
+  height: 62px;
+  width: 62px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background: #4b9200;
+}
+
+.arrow svg {
+  width: 16px;
+  height: 8px;
+  color: #ffffff;
+}
+
+.information-section {
+  position: relative;
+  grid-area: information;
+  display: grid;
+  padding-bottom: 140px;
+}
+
+.information-wrapper {
+  margin-top: 140px;
+  /* height: 1852px; */
+  width: 1160px;
+  justify-self: center;
+}
+
+.animal-information-block {
+  height: 1018px;
+}
+
+.short-text {
+  height: 259px;
+  overflow: hidden;
+  position: relative;
+}
+
+.short-text::after {
+  content: '';
+  display: block;
+  height: 70px;
+  width: 1160px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(360deg, #ffffff -13.95%, rgba(255, 248, 248, 0) 88.37%);
+}
+
+.information-section-title {
+  /*  width: 422px; */
+  height: 62px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  color: #4b9200;
+}
+
+.information-first-wrapper {
+  margin-top: 20px;
+  height: 421px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.information-first-wrapper::after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 1160px;
+  left: 0px;
+  bottom: -20px;
+  background: #767474;
+}
+
+.information-foto {
+  width: 422px;
+  height: 421px;
+  background-image: url(../../../public/assets/images/gorillas-foto.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.information-text {
+  width: 668px;
+}
+
+.information-text p {
+  height: 288px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 140%;
+  color: #ababab;
+}
+
+.information-text p span {
+  color: #4b9200;
+}
+
+.feed-friend-btn {
+  margin-top: 41px;
+  width: 298px;
+  height: 54px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  display: grid;
+  align-items: center;
+  text-decoration: none;
+}
+
+.feed-friend-btn:hover {
+  background: #4b9200;
+}
+
+.information-second-wrapper {
+  margin-top: 62px;
+}
+
+.information-block {
+  display: flex;
+  align-items: flex-end;
+}
+
+.range {
+  margin-top: 20px;
+}
+
+.habitat {
+  margin-top: 28px;
+}
+
+.general {
+  margin-top: 30px;
+}
+
+.information-block p {
+  margin-left: 10px;
+}
+
+.information-subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.information-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.margin-top-ten {
+  margin-top: 10px;
+}
+
+.margin-top-twenty {
+  margin-top: 20px;
+}
+
+.information-description span {
+  color: #4b9200;
+}
+
+.read-less {
+  width: 129px;
+  height: 42px;
+  margin-top: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #000000;
+  background: #f1f3f2;
+  border: 1px solid #333b41;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.strelitzia-zoos {
+  position: absolute;
+  background-image: url(../../../public/assets/images/strelitzia-zoos.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 229px;
+  width: 306px;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.leav-foto-zoos {
+  position: absolute;
+  background-image: url(../../../public/assets/images/leave_foto-zoos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 200px;
+  right: 0;
+  bottom: 0;
+}
+
+.section-donate {
+  height: 390px;
+  background-image: url(../../../public/assets/images/gorilla-zoos-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center;
+  grid-area: donate;
+}
+
+.donate-btn {
+  margin-top: 276px;
+  width: 298px;
+  height: 54px;
+  display: grid;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1580px) {
+  .wrapper-first-scr {
+    height: 584px;
+  }
+
+  .first-section {
+    width: 778px;
+    margin-top: 20px;
+    justify-self: center;
+    grid-area: first;
+  }
+
+  .camera-title {
+    width: 668px;
+    height: 58px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333b41;
+  }
+
+  .video-animal {
+    margin-top: 14px;
+    width: 778px;
+    height: 438px;
+  }
+
+  .animal-slider-section {
+    margin-top: 60px;
+    width: 778px;
+    height: 210px;
+    grid-area: slider;
+    justify-self: center;
+    position: relative;
+  }
+
+  .animal-slider {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    width: 616px;
+    overflow: hidden;
+  }
+
+  .arrow {
+    position: absolute;
+  }
+
+  .arrow-left {
+    top: 32px;
+    right: 30px;
+  }
+
+  .arrow-right {
+    bottom: 44px;
+    right: 30px;
+  }
+
+  .animal-cam {
+    width: 293px;
+    height: 210px;
+  }
+
+  .animal-slider-item:nth-child(3) {
+    margin-left: 30px;
+  }
+
+  .information-wrapper {
+    margin-top: 100px;
+    /* height: 1910px; */
+    height: unset;
+    width: 940px;
+    justify-self: center;
+  }
+
+  .information-first-wrapper {
+    margin-top: 20px;
+    height: 458px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .information-first-wrapper::after {
+    display: none;
+  }
+
+  .information-foto {
+    width: 455x;
+    height: 458px;
+    background-image: url(../../../public/assets/images/gorillas-foto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .information-text {
+    width: 455px;
+  }
+
+  .information-text p {
+    height: 367px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    color: #ababab;
+  }
+
+  .feed-friend-btn {
+    margin-top: 37px;
+  }
+
+  .information-second-wrapper {
+    margin-top: 60px;
+  }
+
+  .animal-information-block {
+    height: 1128px;
+  }
+
+  .short-text {
+    height: 259px;
+    overflow: hidden;
+  }
+
+  .range {
+    margin-top: 10px;
+    height: 46px;
+  }
+
+  .habitat {
+    margin-top: 10px;
+    height: 46px;
+  }
+
+  .read-less {
+    margin-top: 30px;
+  }
+
+  .strelitzia-zoos {
+    position: absolute;
+    background-image: url(../../../public/assets/images/strelitzia-zoo-1000.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 139px;
+    width: 187px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  .leav-foto-zoos {
+    position: absolute;
+    background-image: url(../../../public/assets/images/leave_foto-zoo-1000.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 169px;
+    height: 171px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .section-donate {
+    height: 390px;
+    background-image: url(../../../public/assets/images/gorilla-zoos-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    grid-area: donate;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .main-component {
+    display: grid;
+    align-items: center;
+    grid-template-areas:
+      'sidebar first'
+      'sidebar slider'
+      'information information'
+      'donate donate';
+    grid-template-columns: 125px auto;
+  }
+
+  /* .main-wrapper {
+        align-items: flex-start;
+      } */
+
+  .main-wrapper {
+    align-items: center;
+  }
+
+  .first-section {
+    width: 495px;
+    margin-top: 20px;
+    justify-self: center;
+    grid-area: first;
+  }
+
+  .camera-title {
+    width: 495px;
+    height: 47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 120%;
+    color: #333b41;
+  }
+
+  .video-animal {
+    margin-top: 10px;
+    width: 495px;
+    height: 278px;
+  }
+
+  .animal-slider-section {
+    margin-top: 20px;
+    width: 495px;
+    height: 140px;
+    grid-area: slider;
+    justify-self: center;
+    position: relative;
+  }
+
+  .animal-slider {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    width: 390px;
+    overflow: hidden;
+  }
+
+  .animal-cam {
+    width: 180px;
+    height: 140px;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 42.81px;
+    height: 42.81px;
+  }
+
+  .arrow-right {
+    top: 24px;
+    right: 30px;
+  }
+
+  .arrow-left {
+    top: 74px;
+    right: 30px;
+  }
+
+  .information-section {
+    padding-bottom: 147px;
+    text-align: center;
+  }
+
+  .information-wrapper {
+    margin-top: 60px;
+    /* height: 1910px; */
+    height: unset;
+    width: 600px;
+    justify-self: center;
+  }
+
+  .information-section-title {
+    width: unset;
+    height: 58px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #4b9200;
+  }
+
+  .information-first-wrapper {
+    margin-top: 20px;
+    height: 764px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .information-foto {
+    width: 390px;
+    height: 393px;
+    background-image: url(../../../public/assets/images/gorillas-foto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .information-text {
+    width: 600px;
+    display: grid;
+    justify-content: center;
+  }
+
+  .information-text p {
+    margin-top: 30px;
+    height: 341px;
+    width: 420px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    color: #ababab;
+  }
+
+  .feed-friend-btn {
+    margin-top: 40px;
+    justify-self: center;
+  }
+
+  .animal-information-block {
+    height: 1437px;
+  }
+
+  .short-text {
+    height: 259px;
+    overflow: hidden;
+  }
+
+  .information-second-wrapper {
+    margin-top: 60px;
+  }
+
+  .information-block:first-child {
+    align-items: unset;
+  }
+
+  .strelitzia-zoos {
+    position: absolute;
+    background-image: url(../../../public/assets/images/strelitzia-zoo-1000.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 107px;
+    width: 144px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  .leav-foto-zoos {
+    position: absolute;
+    background-image: url(../../../public/assets/images/leave_foto-zoo-640.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 126px;
+    height: 106px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .section-donate {
+    height: 293px;
+    background-image: url(../../../public/assets/images/gorilla-zoos-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    grid-area: donate;
+  }
+
+  .donate-btn {
+    margin-top: 199px;
+    width: 298px;
+    height: 54px;
+    display: grid;
+    background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .main-wrapper {
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .main-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .main-wrapper {
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first-section {
+    width: 299px;
+    margin-top: 20px;
+    grid-area: first;
+    background: unset;
+  }
+
+  .camera-title {
+    width: 100%;
+    height: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333b41;
+  }
+
+  .video-animal {
+    margin-top: 10px;
+    width: 299px;
+    height: 168px;
+  }
+
+  .animal-slider-section {
+    margin-top: 17px;
+    width: 189px;
+    height: 146px;
+    grid-area: slider;
+    align-self: flex-end;
+    position: relative;
+    margin-right: 27px;
+  }
+
+  .animal-slider {
+    display: grid;
+    grid-template-columns: 90px 90px;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    width: 189px;
+    overflow: hidden;
+  }
+
+  .animal-slider-item:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .animal-cam {
+    width: 90px;
+    height: 68px;
+  }
+
+  .information-wrapper {
+    margin-top: 0;
+    /* height: 1852px; */
+    height: unset;
+    width: 320px;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .information-section {
+    margin-top: 60px;
+    padding-bottom: 80.55px;
+    width: 100vw;
+  }
+
+  .information-section-title {
+    /*     width: 131px; */
+    height: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #4b9200;
+  }
+
+  .information-first-wrapper {
+    margin-top: 10px;
+    height: 561px;
+  }
+
+  .information-foto {
+    width: 319px;
+    height: 193px;
+    background-image: url(../../../public/assets/images/gorillas-foto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .information-text {
+    width: 300px;
+    align-self: center;
+  }
+
+  .information-text p {
+    height: 264px;
+    width: 300px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ababab;
+  }
+
+  .feed-friend-btn {
+    margin-top: 30px;
+  }
+
+  .information-second-wrapper {
+    margin-top: 40px;
+    width: 300px;
+  }
+
+  .animal-information-block {
+    height: 2382px;
+  }
+
+  .short-text {
+    height: 376px;
+    overflow: hidden;
+  }
+
+  .strelitzia-zoos {
+    position: absolute;
+    background-image: url(../../../public/assets/images/strelitzia-zoo-1000.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 63px;
+    width: 85px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  .leav-foto-zoos {
+    position: absolute;
+    background-image: url(../../../public/assets/images/leave_foto-zoo-320.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 67px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .section-donate {
+    height: 220px;
+    /* width: 320px; */
+    width: 100vw;
+    background-image: url(../../../public/assets/images/donet-zoo-bg-320.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    grid-area: donate;
+  }
+
+  .donate-btn {
+    margin-top: 156px;
+    width: 298px;
+    height: 54px;
+    display: grid;
+    background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+  }
+}
