@@ -2,10 +2,20 @@ import React from 'react';
 
 import Sidebar from '../../components/Sidebar/Sidebar';
 import VideoSection from '../../components/VideoSection/VideoSection';
+import InformationFirstSection from '../../components/InformationFirstSection/InformationFirstSection';
 
 import './Gorilla.scss';
 
 export default function Gorilla() {
+  const animalShortInfo = (
+    <p>
+      Western lowland gorillas live in troops led by a dominant silverback, several adult females,
+      and their offspring. There are two species of gorilla, each containing two subspecies. The two
+      species are eastern and western, and the four sub-species are <span>Cross River</span> and
+      <span>Western</span> Lowland (are sub-species of the Western species) and Grauer’s and
+      Mountain (are sub-species of the Eastern species).
+    </p>
+  );
   return (
     <section className="main-component">
       <Sidebar />
@@ -21,22 +31,11 @@ export default function Gorilla() {
       <section className="information-section">
         <div className="information-wrapper">
           <h3 className="information-section-title">Western Lowland Gorilla</h3>
-          <div className="information-first-wrapper">
-            <div className="information-foto"></div>
-            <div className="information-text">
-              <p>
-                Western lowland gorillas live in troops led by a dominant silverback, several adult
-                females, and their offspring. There are two species of gorilla, each containing two
-                subspecies. The two species are eastern and western, and the four sub-species are{' '}
-                <span>Cross River</span> and
-                <span>Western</span> Lowland (are sub-species of the Western species) and Grauer’s
-                and Mountain (are sub-species of the Eastern species).
-              </p>
-              <a href="" className="feed-friend-btn">
-                Feed a friend now
-              </a>
-            </div>
-          </div>
+          <InformationFirstSection
+            fotoUrl={'/assets/images/gorillas-foto.png'}
+            fotoTitle="Gorilla"
+            shortInfo={animalShortInfo}
+          />
           <div className="information-second-wrapper">
             <div className="information-block">
               <h5 className="information-subtitle">Diet:</h5>

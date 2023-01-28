@@ -1,4 +1,5 @@
 import React from 'react';
+import InformationFirstSection from '../../components/InformationFirstSection/InformationFirstSection';
 
 import Sidebar from '../../components/Sidebar/Sidebar';
 import VideoSection from '../../components/VideoSection/VideoSection';
@@ -6,6 +7,16 @@ import VideoSection from '../../components/VideoSection/VideoSection';
 import './Panda.scss';
 
 export default function Panda() {
+  const animalShortInfo = (
+    <p>
+      Giant pandas are very <span> unusual animals </span> that eat almost exclusively{' '}
+      <span>bamboo</span>, which is very low in nutrients. Because of this, they have many unique
+      adaptations for their low-energy lifestyle. Giant pandas are solitary, with males and females
+      coming together only briefly to mate. Habitat loss is the primary threat to this species. Its
+      popularity around the world has helped the giant panda become the focus of successful
+      conservation programs.
+    </p>
+  );
   return (
     <section className="main-component">
       <Sidebar />
@@ -21,22 +32,11 @@ export default function Panda() {
       <section className="information-section">
         <div className="information-wrapper">
           <h3 className="information-section-title">Giant Panda</h3>
-          <div className="information-first-wrapper">
-            <div className="information-foto"></div>
-            <div className="information-text">
-              <p>
-                Giant pandas are very <span> unusual animals </span> that eat almost exclusively{' '}
-                <span>bamboo</span>, which is very low in nutrients. Because of this, they have many
-                unique adaptations for their low-energy lifestyle. Giant pandas are solitary, with
-                males and females coming together only briefly to mate. Habitat loss is the primary
-                threat to this species. Its popularity around the world has helped the giant panda
-                become the focus of successful conservation programs.
-              </p>
-              <a href="" className="feed-friend-btn">
-                Feed a friend now
-              </a>
-            </div>
-          </div>
+          <InformationFirstSection
+            fotoUrl={'/assets/images/inf-panda-foto.png'}
+            fotoTitle="Panda"
+            shortInfo={animalShortInfo}
+          />
           <div className="information-second-wrapper">
             <div className="animal-information-block short-text">
               <div className="information-block">
