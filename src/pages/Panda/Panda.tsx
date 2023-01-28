@@ -1,8 +1,8 @@
 import React from 'react';
-import InformationFirstSection from '../../components/InformationFirstSection/InformationFirstSection';
 
 import Sidebar from '../../components/Sidebar/Sidebar';
 import VideoSection from '../../components/VideoSection/VideoSection';
+import InformationFirstSection from '../../components/InformationFirstSection/InformationFirstSection';
 
 import './Panda.scss';
 
