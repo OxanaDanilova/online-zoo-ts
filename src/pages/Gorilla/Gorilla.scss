@@ -127,17 +127,6 @@
   cursor: pointer;
 }
 
-.leav-foto-zoos {
-  position: absolute;
-  background-image: url(../../../public/assets/images/leave_foto-zoos.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 220px;
-  height: 200px;
-  right: 0;
-  bottom: 0;
-}
-
 @media only screen and (max-width: 1580px) {
   /*   .wrapper-first-scr {
     height: 584px;
@@ -176,17 +165,6 @@
 
   .read-less {
     margin-top: 30px;
-  }
-
-  .leav-foto-zoos {
-    position: absolute;
-    background-image: url(../../../public/assets/images/leave_foto-zoo-1000.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 169px;
-    height: 171px;
-    right: 0;
-    bottom: 0;
   }
 }
 
@@ -246,17 +224,6 @@
   .information-block:first-child {
     align-items: unset;
   }
-
-  .leav-foto-zoos {
-    position: absolute;
-    background-image: url(../../../public/assets/images/leave_foto-zoo-640.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 126px;
-    height: 106px;
-    right: 0;
-    bottom: 0;
-  }
 }
 
 @media only screen and (max-width: 625px) {
@@ -308,16 +275,5 @@
   .short-text {
     height: 376px;
     overflow: hidden;
-  }
-
-  .leav-foto-zoos {
-    position: absolute;
-    background-image: url(../../../public/assets/images/leave_foto-zoo-320.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 64px;
-    height: 67px;
-    right: 0;
-    bottom: 0;
   }
 }

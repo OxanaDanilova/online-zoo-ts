@@ -7,6 +7,7 @@ import InformationFirstSection from '../../components/InformationFirstSection/In
 import './Gorilla.scss';
 import DonateSection from '../../components/DonateSection/DonateSection';
 import Strelitzia from '../../components/Strelitzia/Strelitzia';
+import Leaf from '../../components/Leaf/Leaf';
 
 export default function Gorilla() {
   const animalShortInfo = (
@@ -225,7 +226,7 @@ export default function Gorilla() {
         </div>
 
         <Strelitzia />
-        <div className="leav-foto-zoos"></div>
+        <Leaf />
       </section>
 
       <DonateSection donateImage={'/assets/images/gorilla-zoos-bg.png'} donateImageText="Gorilla" />

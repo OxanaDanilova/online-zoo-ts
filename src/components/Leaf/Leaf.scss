@@ -1,0 +1,34 @@
+.leaf-foto-zoos {
+  position: absolute;
+  background-image: url(../../../public/assets/images/leave_foto-zoos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 200px;
+  right: 0;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 1580px) {
+  .leaf-foto-zoos {
+    background-image: url(../../../public/assets/images/leave_foto-zoo-1000.png);
+    width: 169px;
+    height: 171px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .leaf-foto-zoos {
+    background-image: url(../../../public/assets/images/leave_foto-zoo-640.png);
+    width: 126px;
+    height: 106px;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .leaf-foto-zoos {
+    background-image: url(../../../public/assets/images/leave_foto-zoo-320.png);
+    width: 64px;
+    height: 67px;
+  }
+}

@@ -7,6 +7,7 @@ import InformationFirstSection from '../../components/InformationFirstSection/In
 import './Panda.scss';
 import DonateSection from '../../components/DonateSection/DonateSection';
 import Strelitzia from '../../components/Strelitzia/Strelitzia';
+import Leaf from '../../components/Leaf/Leaf';
 
 export default function Panda() {
   const animalShortInfo = (
@@ -131,7 +132,7 @@ export default function Panda() {
         </div>
 
         <Strelitzia />
-        <div className="leav-foto-zoos"></div>
+        <Leaf />
       </section>
 
       <DonateSection donateImage={'/assets/images/panda_bg-zoos.png'} donateImageText="Panda" />
