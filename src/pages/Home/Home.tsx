@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import '../Home/Home.scss';
 
@@ -57,7 +58,7 @@ export default function Home() {
 
             <ul className="slider">
               <li>
-                <a href="pages/zoos/panda/panda.html" className="slider-item">
+                <NavLink to="/panda" className="slider-item">
                   <img
                     className="animal-foto"
                     src="../../assets/images/giant-pandas-foto.png"
@@ -90,10 +91,10 @@ export default function Home() {
                       />
                     </svg>
                   </div>
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="pages/zoos/eagle/eagle.html" className="slider-item">
+                <NavLink to="/eagle" className="slider-item">
                   <img
                     className="animal-foto"
                     src="../../assets/images/eagles-foto.png"
@@ -124,10 +125,10 @@ export default function Home() {
                       />
                     </svg>
                   </div>
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="" className="slider-item">
+                <NavLink to="/cheetahs" className="slider-item">
                   <img
                     className="animal-foto"
                     src="../../assets/images/cheetahs.png"
@@ -158,10 +159,10 @@ export default function Home() {
                       />
                     </svg>
                   </div>
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="pages/zoos/gorilla/gorilla.html" className="slider-item">
+                <NavLink to="/gorilla" className="slider-item">
                   <img
                     className="animal-foto"
                     src="../../assets/images/gorillas-foto.png"
@@ -194,7 +195,7 @@ export default function Home() {
                       />
                     </svg>
                   </div>
-                </a>
+                </NavLink>
               </li>
               {/*     <!--    <li><a href="" className="slider-item">
                   <img className="animal-foto" src="assets/images/two-toeds-sloth-foto.png" alt="two-toeds-sloth">
@@ -216,7 +217,7 @@ export default function Home() {
 
               </a></li> --> */}
               <li>
-                <a href="pages/zoos/alligator/alligator.html" className="slider-item">
+                <NavLink to="/alligator" className="slider-item">
                   <img
                     className="animal-foto"
                     src="../../assets/images/alligator-slide-1000.png"
@@ -247,11 +248,11 @@ export default function Home() {
                       />
                     </svg>
                   </div>
-                </a>
+                </NavLink>
               </li>
 
               <li>
-                <a href="" className="slider-item">
+                <NavLink to="/penguins" className="slider-item">
                   <img
                     className="animal-foto"
                     src="../../assets/images/penguins-foto.png"
@@ -282,7 +283,7 @@ export default function Home() {
                       />
                     </svg>
                   </div>
-                </a>
+                </NavLink>
               </li>
             </ul>
             <div className="arrow arrow-right">
@@ -302,9 +303,9 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <a href="pages/map/map.html" className="choose-favorite-btn">
+          <NavLink to="/map" className="choose-favorite-btn">
             choose your favorite
-          </a>
+          </NavLink>
         </div>
         <div className="palm-decor"></div>
         <div className="strelitzia-decor"></div>
