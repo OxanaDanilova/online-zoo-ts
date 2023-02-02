@@ -3,11 +3,11 @@ import React from 'react';
 import Sidebar from '../../components/Sidebar/Sidebar';
 import VideoSection from '../../components/VideoSection/VideoSection';
 import InformationFirstSection from '../../components/InformationFirstSection/InformationFirstSection';
-
-import './Panda.scss';
 import DonateSection from '../../components/DonateSection/DonateSection';
 import Strelitzia from '../../components/Strelitzia/Strelitzia';
 import Leaf from '../../components/Leaf/Leaf';
+
+import './Panda.scss';
 
 export default function Panda() {
   const animalShortInfo = (

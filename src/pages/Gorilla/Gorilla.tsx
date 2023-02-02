@@ -3,8 +3,6 @@ import React from 'react';
 import Sidebar from '../../components/Sidebar/Sidebar';
 import VideoSection from '../../components/VideoSection/VideoSection';
 import InformationFirstSection from '../../components/InformationFirstSection/InformationFirstSection';
-
-import './Gorilla.scss';
 import DonateSection from '../../components/DonateSection/DonateSection';
 import Strelitzia from '../../components/Strelitzia/Strelitzia';
 import Leaf from '../../components/Leaf/Leaf';
