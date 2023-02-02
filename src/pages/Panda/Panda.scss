@@ -152,13 +152,13 @@
   .range {
     margin-top: 10px;
     height: 46px;
-    align-items: unset;
+    /*  align-items: unset; */
   }
 
   .habitat {
     margin-top: 10px;
     height: 46px;
-    align-items: unset;
+    /*  align-items: unset; */
   }
 
   .read-less {
@@ -219,6 +219,11 @@
   }
 
   .information-block:first-child {
+    align-items: unset;
+  }
+
+  .range,
+  .habitat {
     align-items: unset;
   }
 }
