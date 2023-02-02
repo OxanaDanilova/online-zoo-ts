@@ -127,19 +127,6 @@
   cursor: pointer;
 }
 
-.strelitzia-zoos {
-  position: absolute;
-  background-image: url(../../../public/assets/images/strelitzia-zoos.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 229px;
-  width: 306px;
-  left: 0;
-  bottom: 0;
-  z-index: 0;
-}
-
 .leav-foto-zoos {
   position: absolute;
   background-image: url(../../../public/assets/images/leave_foto-zoos.png);
@@ -149,35 +136,6 @@
   height: 200px;
   right: 0;
   bottom: 0;
-}
-
-.section-donate {
-  height: 390px;
-  background-image: url(../../../public/assets/images/gorilla-zoos-bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: grid;
-  justify-content: center;
-  grid-area: donate;
-}
-
-.donate-btn {
-  margin-top: 276px;
-  width: 298px;
-  height: 54px;
-  display: grid;
-  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
-  border-radius: 25px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 140%;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  text-decoration: none;
-  align-items: center;
 }
 
 @media only screen and (max-width: 1580px) {
@@ -220,19 +178,6 @@
     margin-top: 30px;
   }
 
-  .strelitzia-zoos {
-    position: absolute;
-    background-image: url(../../../public/assets/images/strelitzia-zoo-1000.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 139px;
-    width: 187px;
-    left: 0;
-    bottom: 0;
-    z-index: 0;
-  }
-
   .leav-foto-zoos {
     position: absolute;
     background-image: url(../../../public/assets/images/leave_foto-zoo-1000.png);
@@ -242,16 +187,6 @@
     height: 171px;
     right: 0;
     bottom: 0;
-  }
-
-  .section-donate {
-    height: 390px;
-    background-image: url(../../../public/assets/images/gorilla-zoos-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: grid;
-    justify-content: center;
-    grid-area: donate;
   }
 }
 
@@ -312,19 +247,6 @@
     align-items: unset;
   }
 
-  .strelitzia-zoos {
-    position: absolute;
-    background-image: url(../../../public/assets/images/strelitzia-zoo-1000.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 107px;
-    width: 144px;
-    left: 0;
-    bottom: 0;
-    z-index: 0;
-  }
-
   .leav-foto-zoos {
     position: absolute;
     background-image: url(../../../public/assets/images/leave_foto-zoo-640.png);
@@ -335,42 +257,7 @@
     right: 0;
     bottom: 0;
   }
-
-  .section-donate {
-    height: 293px;
-    background-image: url(../../../public/assets/images/gorilla-zoos-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: grid;
-    justify-content: center;
-    grid-area: donate;
-  }
-
-  .donate-btn {
-    margin-top: 199px;
-    width: 298px;
-    height: 54px;
-    display: grid;
-    background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
-    border-radius: 25px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 140%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffffff;
-    text-decoration: none;
-    align-items: center;
-  }
 }
-
-/* @media only screen and (max-width: 640px) {
-  .main-wrapper {
-    align-items: flex-start;
-  }
-} */
 
 @media only screen and (max-width: 625px) {
   .main-component {
@@ -423,19 +310,6 @@
     overflow: hidden;
   }
 
-  .strelitzia-zoos {
-    position: absolute;
-    background-image: url(../../../public/assets/images/strelitzia-zoo-1000.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 63px;
-    width: 85px;
-    left: 0;
-    bottom: 0;
-    z-index: 0;
-  }
-
   .leav-foto-zoos {
     position: absolute;
     background-image: url(../../../public/assets/images/leave_foto-zoo-320.png);
@@ -445,36 +319,5 @@
     height: 67px;
     right: 0;
     bottom: 0;
-  }
-
-  .section-donate {
-    height: 220px;
-    /* width: 320px; */
-    width: 100vw;
-    background-image: url(../../../public/assets/images/donet-zoo-bg-320.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: grid;
-    justify-content: center;
-    grid-area: donate;
-  }
-
-  .donate-btn {
-    margin-top: 156px;
-    width: 298px;
-    height: 54px;
-    display: grid;
-    background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
-    border-radius: 25px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 140%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffffff;
-    text-decoration: none;
-    align-items: center;
   }
 }

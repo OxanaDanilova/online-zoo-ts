@@ -5,6 +5,8 @@ import VideoSection from '../../components/VideoSection/VideoSection';
 import InformationFirstSection from '../../components/InformationFirstSection/InformationFirstSection';
 
 import './Panda.scss';
+import DonateSection from '../../components/DonateSection/DonateSection';
+import Strelitzia from '../../components/Strelitzia/Strelitzia';
 
 export default function Panda() {
   const animalShortInfo = (
@@ -128,15 +130,11 @@ export default function Panda() {
           </div>
         </div>
 
-        <div className="strelitzia-zoos"></div>
+        <Strelitzia />
         <div className="leav-foto-zoos"></div>
       </section>
 
-      <section className="section-donate">
-        <a href="../../donate/donate.html" className="donate-btn">
-          Donate
-        </a>
-      </section>
+      <DonateSection donateImage={'/assets/images/panda_bg-zoos.png'} donateImageText="Panda" />
     </section>
   );
 }

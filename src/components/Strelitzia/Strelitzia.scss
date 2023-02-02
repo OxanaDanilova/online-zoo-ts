@@ -1,0 +1,45 @@
+.strelitzia-zoos {
+  position: absolute;
+  background-image: url(../../../public/assets/images/strelitzia-zoos.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 229px;
+  width: 306px;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 1580px) {
+  .strelitzia-zoos {
+    background-image: url(../../../public/assets/images/strelitzia-zoo-1000.png);
+    height: 139px;
+    width: 187px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .strelitzia-zoos {
+    background-image: url(../../../public/assets/images/strelitzia-zoo-1000.png);
+    height: 107px;
+    width: 144px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .strelitzia-zoos {
+    background-image: url(../../../public/assets/images/strelitzia-zoo-1000.png);
+    height: 63px;
+    width: 85px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+}

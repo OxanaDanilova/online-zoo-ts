@@ -5,6 +5,8 @@ import VideoSection from '../../components/VideoSection/VideoSection';
 import InformationFirstSection from '../../components/InformationFirstSection/InformationFirstSection';
 
 import './Gorilla.scss';
+import DonateSection from '../../components/DonateSection/DonateSection';
+import Strelitzia from '../../components/Strelitzia/Strelitzia';
 
 export default function Gorilla() {
   const animalShortInfo = (
@@ -222,15 +224,11 @@ export default function Gorilla() {
           </div>
         </div>
 
-        <div className="strelitzia-zoos"></div>
+        <Strelitzia />
         <div className="leav-foto-zoos"></div>
       </section>
 
-      <section className="section-donate">
-        <a href="../../donate/donate.html" className="donate-btn">
-          Donate
-        </a>
-      </section>
+      <DonateSection donateImage={'/assets/images/gorilla-zoos-bg.png'} donateImageText="Gorilla" />
     </section>
   );
 }

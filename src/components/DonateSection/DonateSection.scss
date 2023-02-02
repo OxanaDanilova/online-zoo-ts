@@ -1,0 +1,63 @@
+.section-donate {
+  height: 390px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-area: donate;
+  position: relative;
+  img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.donate-btn {
+  margin-top: 276px;
+  width: 298px;
+  height: 3.5rem;
+  display: grid;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 1.5rem;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 980px) {
+  .section-donate {
+    height: 293px;
+  }
+
+  .donate-btn {
+    margin-top: 199px;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .section-donate {
+    height: 220px;
+  }
+
+  .donate-btn {
+    margin-top: 156px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .section-donate > img {
+    object-position: -9rem;
+  }
+}
