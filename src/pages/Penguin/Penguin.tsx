@@ -31,7 +31,7 @@ export default function Penguin() {
         <div className="information-wrapper">
           <h3 className="information-section-title">Penguin</h3>
           <InformationFirstSection
-            fotoUrl={'/assets/images/penguins-foto.png'}
+            fotoUrl={'assets/images/penguins-foto.png'}
             fotoTitle="Penguin"
             shortInfo={animalShortInfo}
           />
@@ -113,7 +113,7 @@ export default function Penguin() {
         <Leaf />
       </section>
 
-      <DonateSection donateImage={'/assets/images/penguin-zoos-bg.png'} donateImageText="Penguin" />
+      <DonateSection donateImage={'assets/images/penguin-zoos-bg.png'} donateImageText="Penguin" />
     </section>
   );
 }

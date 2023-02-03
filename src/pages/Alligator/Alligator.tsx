@@ -32,7 +32,7 @@ export default function Alligator() {
         <div className="information-wrapper">
           <h3 className="information-section-title">Alligator Lowland Gorilla</h3>
           <InformationFirstSection
-            fotoUrl={'/assets/images/alligator-zoo.png'}
+            fotoUrl={'assets/images/alligator-zoo.png'}
             fotoTitle="Alligator"
             shortInfo={animalShortInfo}
           />
@@ -127,10 +127,7 @@ export default function Alligator() {
         <Leaf />
       </section>
 
-      <DonateSection
-        donateImage={'/assets/images/alligator-zoo-bg.png'}
-        donateImageText="Gorilla"
-      />
+      <DonateSection donateImage={'assets/images/alligator-zoo-bg.png'} donateImageText="Gorilla" />
     </section>
   );
 }

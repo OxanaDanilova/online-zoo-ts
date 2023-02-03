@@ -9,7 +9,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/online-zoo-ts">
       <App />
     </Router>
   </React.StrictMode>

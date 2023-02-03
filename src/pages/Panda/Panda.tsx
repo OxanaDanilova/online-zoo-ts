@@ -36,7 +36,7 @@ export default function Panda() {
         <div className="information-wrapper">
           <h3 className="information-section-title">Giant Panda</h3>
           <InformationFirstSection
-            fotoUrl={'/assets/images/inf-panda-foto.png'}
+            fotoUrl={'assets/images/inf-panda-foto.png'}
             fotoTitle="Panda"
             shortInfo={animalShortInfo}
           />
@@ -135,7 +135,7 @@ export default function Panda() {
         <Leaf />
       </section>
 
-      <DonateSection donateImage={'/assets/images/panda_bg-zoos.png'} donateImageText="Panda" />
+      <DonateSection donateImage={'assets/images/panda_bg-zoos.png'} donateImageText="Panda" />
     </section>
   );
 }

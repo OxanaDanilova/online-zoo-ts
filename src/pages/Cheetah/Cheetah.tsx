@@ -31,7 +31,7 @@ export default function Cheetah() {
         <div className="information-wrapper">
           <h3 className="information-section-title">Cheetah</h3>
           <InformationFirstSection
-            fotoUrl={'/assets/images/cheetahs.png'}
+            fotoUrl={'assets/images/cheetahs.png'}
             fotoTitle="Cheetah"
             shortInfo={animalShortInfo}
           />
@@ -129,7 +129,7 @@ export default function Cheetah() {
         <Leaf />
       </section>
 
-      <DonateSection donateImage={'/assets/images/cheetah-zoos-bg.jpg'} donateImageText="Cheetah" />
+      <DonateSection donateImage={'assets/images/cheetah-zoos-bg.jpg'} donateImageText="Cheetah" />
     </section>
   );
 }

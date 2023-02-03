@@ -33,7 +33,7 @@ export default function Gorilla() {
         <div className="information-wrapper">
           <h3 className="information-section-title">Western Lowland Gorilla</h3>
           <InformationFirstSection
-            fotoUrl={'/assets/images/gorillas-foto.png'}
+            fotoUrl={'assets/images/gorillas-foto.png'}
             fotoTitle="Gorilla"
             shortInfo={animalShortInfo}
           />
@@ -227,7 +227,7 @@ export default function Gorilla() {
         <Leaf />
       </section>
 
-      <DonateSection donateImage={'/assets/images/gorilla-zoos-bg.png'} donateImageText="Gorilla" />
+      <DonateSection donateImage={'assets/images/gorilla-zoos-bg.png'} donateImageText="Gorilla" />
     </section>
   );
 }

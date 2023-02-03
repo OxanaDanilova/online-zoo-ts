@@ -33,7 +33,7 @@ export default function Eagle() {
         <div className="information-wrapper">
           <h3 className="information-section-title">Eagle</h3>
           <InformationFirstSection
-            fotoUrl={'/assets/images/eagle-zoos-foto.png'}
+            fotoUrl={'assets/images/eagle-zoos-foto.png'}
             fotoTitle="Eagle"
             shortInfo={animalShortInfo}
           />
@@ -114,7 +114,7 @@ export default function Eagle() {
         <Leaf />
       </section>
 
-      <DonateSection donateImage={'/assets/images/eagle_zoos-bg.png'} donateImageText="Eagle" />
+      <DonateSection donateImage={'assets/images/eagle_zoos-bg.png'} donateImageText="Eagle" />
     </section>
   );
 }

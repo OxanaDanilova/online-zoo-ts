@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import '../Home/Home.scss';
 
 export default function Home() {
+  const baseURL = 'online-zoo-ts';
   return (
     <div className="main-wrapper">
       <div className="wrapper-first-scr">
@@ -61,7 +62,7 @@ export default function Home() {
                 <NavLink to="/panda" className="slider-item">
                   <img
                     className="animal-foto"
-                    src="../../assets/images/giant-pandas-foto.png"
+                    src={`${baseURL}/assets/images/giant-pandas-foto.png`}
                     alt="giant-pandas"
                   />
                   <div className="slider-item-description">
@@ -97,7 +98,7 @@ export default function Home() {
                 <NavLink to="/eagle" className="slider-item">
                   <img
                     className="animal-foto"
-                    src="../../assets/images/eagles-foto.png"
+                    src={`${baseURL}/assets/images/eagles-foto.png`}
                     alt="eagles"
                   />
                   <div className="slider-item-description">
@@ -131,7 +132,7 @@ export default function Home() {
                 <NavLink to="/cheetah" className="slider-item">
                   <img
                     className="animal-foto"
-                    src="../../assets/images/cheetahs.png"
+                    src={`${baseURL}/assets/images/cheetahs.png`}
                     alt="cheetahs"
                   />
                   <div className="slider-item-description">
@@ -165,7 +166,7 @@ export default function Home() {
                 <NavLink to="/gorilla" className="slider-item">
                   <img
                     className="animal-foto"
-                    src="../../assets/images/gorillas-foto.png"
+                    src={`${baseURL}/assets/images/gorillas-foto.png`}
                     alt="gorillas"
                   />
                   <div className="slider-item-description">
@@ -220,7 +221,7 @@ export default function Home() {
                 <NavLink to="/alligator" className="slider-item">
                   <img
                     className="animal-foto"
-                    src="../../assets/images/alligator-slide-1000.png"
+                    src={`${baseURL}/assets/images/alligator-slide-1000.png`}
                     alt="alligator"
                   />
                   <div className="slider-item-description">
@@ -255,7 +256,7 @@ export default function Home() {
                 <NavLink to="/penguin" className="slider-item">
                   <img
                     className="animal-foto"
-                    src="../../assets/images/penguins-foto.png"
+                    src={`${baseURL}/assets/images/penguins-foto.png`}
                     alt="penguins"
                   />
                   <div className="slider-item-description">
@@ -518,7 +519,11 @@ export default function Home() {
           <ul className="testimonials-cards">
             <li className="testimonials-card">
               <div className="user-data-wrapper">
-                <img src="../../assets/icons/user_icon1.png" className="avatar" alt="avatar" />
+                <img
+                  src={`${baseURL}/assets/icons/user-icon3.png`}
+                  className="avatar"
+                  alt="avatar"
+                />
                 <div className="user-text-data">
                   <h6 className="user-name">Michael John</h6>
                   <ul className="posting-data">
@@ -540,7 +545,11 @@ export default function Home() {
             </li>
             <li className="testimonials-card">
               <div className="user-data-wrapper">
-                <img src="../../assets/icons/user-icon4.png" className="avatar" alt="avatar" />
+                <img
+                  src={`${baseURL}/assets/icons/user-icon2.png`}
+                  className="avatar"
+                  alt="avatar"
+                />
                 <div className="user-text-data">
                   <h6 className="user-name">Oskar Samborska</h6>
                   <ul className="posting-data">
@@ -565,7 +574,11 @@ export default function Home() {
             </li>
             <li className="testimonials-card">
               <div className="user-data-wrapper">
-                <img src="../../assets/icons/user-icon3.png" className="avatar" alt="avatar" />
+                <img
+                  src={`${baseURL}/assets/icons/user-icon3.png`}
+                  className="avatar"
+                  alt="avatar"
+                />
                 <div className="user-text-data">
                   <h6 className="user-name">Fredericka Michelin</h6>
                   <ul className="posting-data">
@@ -591,7 +604,11 @@ export default function Home() {
             </li>
             <li className="testimonials-card">
               <div className="user-data-wrapper">
-                <img src="../../assets/icons/user-icon4.png" className="avatar" alt="avatar" />
+                <img
+                  src={`${baseURL}/assets/icons/user-icon4.png`}
+                  className="avatar"
+                  alt="avatar"
+                />
                 <div className="user-text-data">
                   <h6 className="user-name">Mila Riksha</h6>
                   <ul className="posting-data">

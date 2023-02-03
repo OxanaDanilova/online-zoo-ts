@@ -33,8 +33,8 @@ export default function Sloth() {
         <div className="information-wrapper">
           <h3 className="information-section-title">Sloth</h3>
           <InformationFirstSection
-            fotoUrl={'/assets/images/two-toeds-sloth-foto.png'}
-            fotoTitle="Gorilla"
+            fotoUrl={'assets/images/two-toeds-sloth-foto.png'}
+            fotoTitle="Sloth"
             shortInfo={animalShortInfo}
           />
           <div className="information-second-wrapper">
@@ -121,7 +121,7 @@ export default function Sloth() {
         <Leaf />
       </section>
 
-      <DonateSection donateImage={'/assets/images/sloth-zoo-bg.jpg'} donateImageText="Sloth" />
+      <DonateSection donateImage={'assets/images/sloth-zoo-bg.jpg'} donateImageText="Sloth" />
     </section>
   );
 }
