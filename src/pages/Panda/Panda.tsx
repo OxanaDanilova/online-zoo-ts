@@ -26,10 +26,10 @@ export default function Panda() {
       <VideoSection
         title="Panda camera"
         videoLink={[
-          'https://www.youtube.com/embed/OObOQ2GElhA',
-          'https://www.youtube.com/embed/OObOQ2GElhA',
-          'https://www.youtube.com/embed/OObOQ2GElhA',
-          'https://www.youtube.com/embed/OObOQ2GElhA',
+          'https://www.youtube.com/embed/3szkFHfr6sA',
+          'https://www.youtube.com/embed/3szkFHfr6sA',
+          'https://www.youtube.com/embed/3szkFHfr6sA',
+          'https://www.youtube.com/embed/3szkFHfr6sA',
         ]}
       />
       <section className="information-section">

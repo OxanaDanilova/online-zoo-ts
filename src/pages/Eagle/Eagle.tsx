@@ -23,10 +23,10 @@ export default function Eagle() {
       <VideoSection
         title="Eagle camera"
         videoLink={[
-          'https://www.youtube.com/embed/eTAsANPVqB8',
-          'https://www.youtube.com/embed/eTAsANPVqB8',
-          'https://www.youtube.com/embed/eTAsANPVqB8',
-          'https://www.youtube.com/embed/eTAsANPVqB8',
+          'https://www.youtube.com/embed/E5T2eHM8tcI',
+          'https://www.youtube.com/embed/E5T2eHM8tcI',
+          'https://www.youtube.com/embed/E5T2eHM8tcI',
+          'https://www.youtube.com/embed/E5T2eHM8tcI',
         ]}
       />
       <section className="information-section">
