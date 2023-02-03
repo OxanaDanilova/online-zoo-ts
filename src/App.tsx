@@ -10,6 +10,7 @@ import Alligator from './pages/Alligator/Alligator';
 import Eagle from './pages/Eagle/Eagle';
 import Sloth from './pages/Sloth/Sloth';
 import Cheetah from './pages/Cheetah/Cheetah';
+import Penguin from './pages/Penguin/Penguin';
 
 import './App.css';
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/eagle" element={<Eagle />} />
           <Route path="/sloth" element={<Sloth />} />
           <Route path="/cheetah" element={<Cheetah />} />
+          <Route path="/penguin" element={<Penguin />} />
           {/*      <Route path="/:id" element={<CardPage />} />
         <Route path="/form" element={<FormPage />} />
         
