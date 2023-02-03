@@ -9,6 +9,7 @@ import Gorilla from './pages/Gorilla/Gorilla';
 import Alligator from './pages/Alligator/Alligator';
 import Eagle from './pages/Eagle/Eagle';
 import Sloth from './pages/Sloth/Sloth';
+import Cheetah from './pages/Cheetah/Cheetah';
 
 import './App.css';
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/alligator" element={<Alligator />} />
           <Route path="/eagle" element={<Eagle />} />
           <Route path="/sloth" element={<Sloth />} />
+          <Route path="/cheetah" element={<Cheetah />} />
           {/*      <Route path="/:id" element={<CardPage />} />
         <Route path="/form" element={<FormPage />} />
         

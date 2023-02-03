@@ -1,6 +1,7 @@
 .information-first-wrapper {
   margin-top: 20px;
-  height: 421px;
+  //height: 421px;
+  height: max-content;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -29,7 +30,8 @@
 }
 
 .information-text p {
-  height: 288px;
+  //height: 288px;
+  height: max-content;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -71,7 +73,7 @@
 @media only screen and (max-width: 1580px) {
   .information-first-wrapper {
     margin-top: 20px;
-    height: 458px;
+    // height: 458px;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -91,7 +93,7 @@
   }
 
   .information-text p {
-    height: 367px;
+    //height: 367px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -108,7 +110,7 @@
 @media only screen and (max-width: 980px) {
   .information-first-wrapper {
     margin-top: 20px;
-    height: 764px;
+    // height: 764px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -129,7 +131,7 @@
 
   .information-text p {
     margin-top: 30px;
-    height: 341px;
+    // height: 341px;
     width: 420px;
     font-family: 'Roboto';
     font-style: normal;
@@ -148,7 +150,7 @@
 @media only screen and (max-width: 625px) {
   .information-first-wrapper {
     margin-top: 10px;
-    height: 561px;
+    // height: 561px;
   }
 
   .information-foto {
@@ -162,7 +164,7 @@
   }
 
   .information-text p {
-    height: 264px;
+    //height: 264px;
     width: 300px;
     font-family: 'Roboto';
     font-style: normal;

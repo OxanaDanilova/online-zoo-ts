@@ -128,7 +128,7 @@ export default function Home() {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/cheetahs" className="slider-item">
+                <NavLink to="/cheetah" className="slider-item">
                   <img
                     className="animal-foto"
                     src="../../assets/images/cheetahs.png"
@@ -252,7 +252,7 @@ export default function Home() {
               </li>
 
               <li>
-                <NavLink to="/penguins" className="slider-item">
+                <NavLink to="/penguin" className="slider-item">
                   <img
                     className="animal-foto"
                     src="../../assets/images/penguins-foto.png"

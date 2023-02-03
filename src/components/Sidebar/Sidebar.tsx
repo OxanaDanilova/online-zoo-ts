@@ -160,7 +160,7 @@ export default function Sidebar() {
           </NavLink>
         </li>
         <li className="sidebar-menu-item" title="Penguins">
-          <NavLink to="/penguins">
+          <NavLink to="/penguin">
             <svg
               width="32"
               height="59"
