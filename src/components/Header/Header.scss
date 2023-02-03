@@ -72,7 +72,9 @@ header nav {
 }
 
 .nav-menu-item a.activ,
-.footer-nav ul li a.activ {
+.footer-nav ul li a.activ,
+.nav-menu-item > a.active,
+.footer-nav > ul > li > a.active {
   color: #f9804b;
   cursor: default;
 }

@@ -12,7 +12,7 @@ export default function DonateSection({
   return (
     <section className="section-donate">
       <img src={donateImage} alt={donateImageText} />
-      <a href="../../donate/donate.html" className="donate-btn">
+      <a href="#" className="donate-btn">
         Donate
       </a>
     </section>

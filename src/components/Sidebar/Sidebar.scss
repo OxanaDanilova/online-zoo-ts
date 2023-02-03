@@ -67,11 +67,13 @@
   cursor: default;
 }
 
-.sidebar-menu-item a:hover {
+.sidebar-menu-item a:hover,
+.active svg path {
   border-color: #4b9200;
 }
 
-.sidebar-menu-item a:hover svg path {
+.sidebar-menu-item a:hover svg path,
+.active svg path {
   fill: #4b9200;
 }
 

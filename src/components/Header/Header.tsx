@@ -23,11 +23,17 @@ export default function Header() {
               <NavLink to="/panda">Zoos</NavLink>
             </li>
             <li className="nav-menu-item">
-              <NavLink to="/">Contact us</NavLink>
+              <a
+                href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Designed by ©
+              </a>
             </li>
             <li className="nav-menu-item">
-              <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">
-                Designed by ©
+              <a href="https://github.com/OxanaDanilova" target="_blank" rel="noreferrer">
+                Developed by ©
               </a>
             </li>
           </ul>

@@ -13,9 +13,9 @@ export default function Home() {
               Watch your <span>favorite</span> animal online
             </p>
           </div>
-          <a href="pages/zoos/panda/panda.html" className="watch-online-btn">
+          <NavLink to="/panda" className="watch-online-btn">
             watch online
-          </a>
+          </NavLink>
         </section>
       </div>
       <section className="second-section">
@@ -615,7 +615,7 @@ export default function Home() {
               </p>
             </li>
           </ul>
-          <input className="testimonials-bar" type="range" min="1" max="10" value="1" />
+          <input className="testimonials-bar" type="range" min="1" max="10" defaultValue="1" />
           <button className="leave-feedback-btn">leave feedback</button>
         </div>
 

@@ -110,7 +110,7 @@ export default function Footer() {
           </form>
         </div>
         <div className="footer-second-row">
-          <a href="pages/donate/donate.html" className="donate-volunteers">
+          <a href="#" className="donate-volunteers">
             donate for volunteers
           </a>
         </div>
@@ -212,9 +212,6 @@ export default function Footer() {
               </li>
               <li>
                 <NavLink to="/panda">Zoos</NavLink>
-              </li>
-              <li>
-                <NavLink to="/">Contact us</NavLink>
               </li>
             </ul>
           </nav>
