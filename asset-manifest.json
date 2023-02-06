@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/online-zoo-ts/static/css/main.c81cacd0.css",
-    "main.js": "/online-zoo-ts/static/js/main.afae8ce9.js",
+    "main.css": "/online-zoo-ts/static/css/main.abe336ba.css",
+    "main.js": "/online-zoo-ts/static/js/main.8808ad78.js",
     "static/media/Giant-Panda.png": "/online-zoo-ts/static/media/Giant-Panda.5075dee36b9614f47fea.png",
     "static/media/bamboo.svg": "/online-zoo-ts/static/media/bamboo.ea1e49d655485bee5876.svg",
     "static/media/bamboo-cap.png": "/online-zoo-ts/static/media/bamboo-cap.423883c93a8fe129e0e9.png",
@@ -21,11 +21,11 @@
     "static/media/leav_foto-landing-640.png": "/online-zoo-ts/static/media/leav_foto-landing-640.ae444d856a12c011a544.png",
     "static/media/strelitzia-zoo-1000.png": "/online-zoo-ts/static/media/strelitzia-zoo-1000.f0977c19098ff08398a8.png",
     "index.html": "/online-zoo-ts/index.html",
-    "main.c81cacd0.css.map": "/online-zoo-ts/static/css/main.c81cacd0.css.map",
-    "main.afae8ce9.js.map": "/online-zoo-ts/static/js/main.afae8ce9.js.map"
+    "main.abe336ba.css.map": "/online-zoo-ts/static/css/main.abe336ba.css.map",
+    "main.8808ad78.js.map": "/online-zoo-ts/static/js/main.8808ad78.js.map"
   },
   "entrypoints": [
-    "static/css/main.c81cacd0.css",
-    "static/js/main.afae8ce9.js"
+    "static/css/main.abe336ba.css",
+    "static/js/main.8808ad78.js"
   ]
 }
