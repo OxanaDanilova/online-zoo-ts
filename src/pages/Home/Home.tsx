@@ -4,13 +4,13 @@ import { NavLink } from 'react-router-dom';
 import '../Home/Home.scss';
 
 export default function Home() {
-  const baseURL = 'online-zoo-ts';
+  const baseURL = ''; /* 'online-zoo-ts/' */
   return (
     <div className="main-wrapper">
       <div className="wrapper-first-scr">
-        <section className="first-section">
+        <section className="first-section_home">
           <div className="ellips">
-            <p className="first-section__text">
+            <p className="first-section_home__text">
               Watch your <span>favorite</span> animal online
             </p>
           </div>
@@ -19,9 +19,9 @@ export default function Home() {
           </NavLink>
         </section>
       </div>
-      <section className="second-section">
+      <section className="second-section_home">
         <div className="flower-decor"></div>
-        <div className="second-section-wrapper">
+        <div className="second-section_home-wrapper">
           <div className="backstage-wrapper">
             <div className="backstage-picture"></div>
             <div className="backstage-text-wrapper">
@@ -62,7 +62,7 @@ export default function Home() {
                 <NavLink to="/panda" className="slider-item">
                   <img
                     className="animal-foto"
-                    src={`${baseURL}/assets/images/giant-pandas-foto.png`}
+                    src={`${baseURL}assets/images/giant-pandas-foto.png`}
                     alt="giant-pandas"
                   />
                   <div className="slider-item-description">
@@ -98,7 +98,7 @@ export default function Home() {
                 <NavLink to="/eagle" className="slider-item">
                   <img
                     className="animal-foto"
-                    src={`${baseURL}/assets/images/eagles-foto.png`}
+                    src={`${baseURL}assets/images/eagles-foto.png`}
                     alt="eagles"
                   />
                   <div className="slider-item-description">
@@ -132,7 +132,7 @@ export default function Home() {
                 <NavLink to="/cheetah" className="slider-item">
                   <img
                     className="animal-foto"
-                    src={`${baseURL}/assets/images/cheetahs.png`}
+                    src={`${baseURL}assets/images/cheetahs.png`}
                     alt="cheetahs"
                   />
                   <div className="slider-item-description">
@@ -166,7 +166,7 @@ export default function Home() {
                 <NavLink to="/gorilla" className="slider-item">
                   <img
                     className="animal-foto"
-                    src={`${baseURL}/assets/images/gorillas-foto.png`}
+                    src={`${baseURL}assets/images/gorillas-foto.png`}
                     alt="gorillas"
                   />
                   <div className="slider-item-description">
@@ -221,7 +221,7 @@ export default function Home() {
                 <NavLink to="/alligator" className="slider-item">
                   <img
                     className="animal-foto"
-                    src={`${baseURL}/assets/images/alligator-slide-1000.png`}
+                    src={`${baseURL}assets/images/alligator-slide-1000.png`}
                     alt="alligator"
                   />
                   <div className="slider-item-description">
@@ -256,7 +256,7 @@ export default function Home() {
                 <NavLink to="/penguin" className="slider-item">
                   <img
                     className="animal-foto"
-                    src={`${baseURL}/assets/images/penguins-foto.png`}
+                    src={`${baseURL}assets/images/penguins-foto.png`}
                     alt="penguins"
                   />
                   <div className="slider-item-description">
@@ -323,8 +323,7 @@ export default function Home() {
           </p>
           <p className="pick-friend-third-text">
             Even though the zoo has reopened, we need you now more than ever to help us deal with
-            these problems. Please consider a gift to our{' '}
-            <a href="pages/donate/donate.html">Emergency Support Fund </a>.
+            these problems. Please consider a gift to our <a href="#">Emergency Support Fund </a>.
           </p>
           <h6 className="pick-friend-subtitle">How it works</h6>
           <div className="how-it-works-wrapper">
@@ -520,7 +519,7 @@ export default function Home() {
             <li className="testimonials-card">
               <div className="user-data-wrapper">
                 <img
-                  src={`${baseURL}/assets/icons/user-icon3.png`}
+                  src={`${baseURL}assets/icons/user-icon3.png`}
                   className="avatar"
                   alt="avatar"
                 />
@@ -546,7 +545,7 @@ export default function Home() {
             <li className="testimonials-card">
               <div className="user-data-wrapper">
                 <img
-                  src={`${baseURL}/assets/icons/user-icon2.png`}
+                  src={`${baseURL}assets/icons/user-icon2.png`}
                   className="avatar"
                   alt="avatar"
                 />
@@ -575,7 +574,7 @@ export default function Home() {
             <li className="testimonials-card">
               <div className="user-data-wrapper">
                 <img
-                  src={`${baseURL}/assets/icons/user-icon3.png`}
+                  src={`${baseURL}assets/icons/user-icon3.png`}
                   className="avatar"
                   alt="avatar"
                 />
@@ -605,7 +604,7 @@ export default function Home() {
             <li className="testimonials-card">
               <div className="user-data-wrapper">
                 <img
-                  src={`${baseURL}/assets/icons/user-icon4.png`}
+                  src={`${baseURL}assets/icons/user-icon4.png`}
                   className="avatar"
                   alt="avatar"
                 />

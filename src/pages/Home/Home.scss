@@ -22,7 +22,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.first-section {
+.first-section_home {
   // width: 1600px;
   width: 100%;
   margin: 0 auto;
@@ -37,7 +37,7 @@ body {
   position: relative;
 }
 
-.first-section__text {
+.first-section_home__text {
   width: 500.31px;
   height: 400px;
   top: 74px;
@@ -53,7 +53,7 @@ body {
   position: absolute;
 }
 
-.first-section__text span {
+.first-section_home__text span {
   color: #ffee2e;
 }
 
@@ -81,7 +81,7 @@ body {
   background: #4b9200;
 }
 
-.second-section {
+.second-section_home {
   background-color: #ffffff;
   position: relative;
   height: 1829px;
@@ -98,7 +98,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.second-section-wrapper {
+.second-section_home-wrapper {
   width: 1600px;
   margin: 0 auto;
   display: flex;
@@ -686,7 +686,7 @@ body {
   .wrapper-first-scr {
     height: 584px;
   }
-  .first-section {
+  .first-section_home {
     width: 940px;
     margin: 0 auto;
     overflow: hidden;
@@ -698,7 +698,7 @@ body {
     margin: -11px 0 0 426px;
   }
 
-  .first-section__text {
+  .first-section_home__text {
     position: absolute;
     width: 400.25px;
     height: 320px;
@@ -711,7 +711,7 @@ body {
     margin: 47px 0 0 535px;
   }
 
-  .second-section {
+  .second-section_home {
     height: 1744px;
   }
 
@@ -719,7 +719,7 @@ body {
     display: none;
   }
 
-  .second-section-wrapper {
+  .second-section_home-wrapper {
     width: 940px;
   }
 
@@ -803,7 +803,7 @@ body {
     height: 36px;
   }
 
-  /*  .second-section {  
+  /*  .second-section_home {  
       height: 1829px;
     } */
 
@@ -985,7 +985,7 @@ body {
     background-repeat: no-repeat;
   }
 
-  .first-section {
+  .first-section_home {
     width: 600px;
     margin: 0 auto;
   }
@@ -999,7 +999,7 @@ body {
     position: relative;
   }
 
-  .first-section__text {
+  .first-section_home__text {
     width: 255.64px;
     height: 204.38px;
     top: 37.81px;
@@ -1035,7 +1035,7 @@ body {
     align-items: center;
   }
 
-  .second-section {
+  .second-section_home {
     background-color: #ffffff;
     position: relative;
     height: 1477px;
@@ -1053,7 +1053,7 @@ body {
     background-size: cover;
   }
 
-  .second-section-wrapper {
+  .second-section_home-wrapper {
     width: 600px;
     margin: 0 auto;
     display: flex;
@@ -1435,7 +1435,7 @@ body {
     background-image: none;
   }
 
-  .first-section {
+  .first-section_home {
     height: 187px;
     width: 100%;
     background-image: url(../../../public/assets/images/Giant-Panda.png);
@@ -1453,7 +1453,7 @@ body {
     position: relative;
   }
 
-  .first-section__text {
+  .first-section_home__text {
     width: 128.13px;
     height: 102.44px;
     top: 18.95px;
@@ -1492,7 +1492,7 @@ body {
     align-items: center;
   }
 
-  .second-section {
+  .second-section_home {
     z-index: 10;
     height: 2054px;
     width: 100%;
@@ -1510,7 +1510,7 @@ body {
     background-size: cover;
   }
 
-  .second-section-wrapper {
+  .second-section_home-wrapper {
     width: 300px;
     margin: 0 auto;
     display: flex;
