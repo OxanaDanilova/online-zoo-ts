@@ -262,13 +262,12 @@
   }
 
   .animal-slider-section {
-    margin-top: 17px;
+    margin: 1rem auto;
     width: 189px;
     height: 146px;
     grid-area: slider;
     align-self: center;
     position: relative;
-    margin-right: unset;
   }
 
   .animal-slider {
@@ -297,9 +296,8 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 460px) {
   .animal-slider-section {
-    align-self: flex-end;
-    margin-right: 27px;
+    margin: 1rem 1rem auto auto;
   }
 }

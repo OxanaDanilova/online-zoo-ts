@@ -7,7 +7,7 @@ export default function Home() {
   const baseURL = ''; /* 'online-zoo-ts/' */
   return (
     <div className="main-wrapper">
-      <div className="wrapper-first-scr">
+      <div className="wrapper-first-scr_home">
         <section className="first-section_home">
           <div className="ellips">
             <p className="first-section_home__text">

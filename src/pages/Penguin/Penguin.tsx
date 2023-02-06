@@ -50,8 +50,7 @@ export default function Penguin() {
             <div className="information-block habitat">
               <h5 className="information-subtitle">Habitat:</h5>
               <p className="information-description">
-                Angola, Antarctica, Argentina, Australia, Chile, Namibia, New Zealand, and South
-                Africa.
+                Angola, Antarctica, Argentina, Australia, Chile, Namibia, South Africa.
               </p>
             </div>
             <h5 className="information-subtitle general">General Information:</h5>

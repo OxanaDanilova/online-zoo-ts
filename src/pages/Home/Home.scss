@@ -13,7 +13,7 @@ body {
   margin-top: -0.9rem;
 }
 
-.wrapper-first-scr {
+.wrapper-first-scr_home {
   height: 780px;
   width: 100%;
   background-image: url(../../../public/assets/images/Giant-Panda.png);
@@ -683,7 +683,7 @@ body {
 }
 
 @media only screen and (max-width: 1580px) {
-  .wrapper-first-scr {
+  .wrapper-first-scr_home {
     height: 584px;
   }
   .first-section_home {
@@ -977,7 +977,7 @@ body {
 }
 
 @media only screen and (max-width: 980px) {
-  .wrapper-first-scr {
+  .wrapper-first-scr_home {
     height: 373px;
     background-image: url(../../../public/assets/images/panda-landing-640.png);
     background-position: center;
@@ -1430,7 +1430,7 @@ body {
 }
 
 @media only screen and (max-width: 625px) {
-  .wrapper-first-scr {
+  .wrapper-first-scr_home {
     height: 221px;
     background-image: none;
   }
