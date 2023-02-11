@@ -8,11 +8,11 @@ body {
   flex-direction: column;
   overflow-x: hidden;
 }
-
-.main-wrapper {
-  margin-top: -0.9rem;
+/*
+.main-wrapper_home {
+  margin-top: -0.9rem; 
 }
-
+*/
 .wrapper-first-scr_home {
   height: 780px;
   width: 100%;
@@ -26,12 +26,13 @@ body {
   // width: 1600px;
   width: 100%;
   margin: 0 auto;
+  padding-top: 0.9rem;
 }
 
 .ellips {
   width: 465px;
   height: 465px;
-  margin: 12px 0 0 807px;
+  margin: 0 0 0 807px;
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 50%;
   position: relative;
@@ -152,7 +153,7 @@ body {
 
 .backstage-subtitle {
   margin-top: 54px;
-  width: 217px;
+  /*  width: 217px; */
   height: 29px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -183,7 +184,7 @@ body {
   align-self: center;
 }
 
-.arrow {
+.arrow_home {
   height: 62px;
   width: 62px;
   border-radius: 50%;
@@ -195,11 +196,11 @@ body {
   cursor: pointer;
 }
 
-.arrow:hover {
+.arrow_home:hover {
   background: #4b9200;
 }
 
-.arrow svg {
+.arrow_home svg {
   width: 16px;
   height: 8px;
   color: #ffffff;
@@ -754,7 +755,7 @@ body {
     position: relative;
   }
 
-  .arrow {
+  .arrow_home {
     height: 62px;
     width: 62px;
     border-radius: 50%;
@@ -766,13 +767,13 @@ body {
     cursor: pointer;
   }
 
-  .arrow-left {
+  .arrow-left_home {
     position: absolute;
     top: 369px;
     left: 323px;
   }
 
-  .arrow-right {
+  .arrow-right_home {
     position: absolute;
     top: 369px;
     right: 323px;
@@ -1096,7 +1097,7 @@ body {
     align-self: center;
   }
 
-  .arrow {
+  .arrow_home {
     height: 62px;
     width: 62px;
     border-radius: 50%;
@@ -1122,6 +1123,7 @@ body {
   }
 
   .slider-item {
+    margin: 0 auto;
     width: 285px;
     height: 332px;
     border: 1px solid #fe9013;
@@ -1158,13 +1160,13 @@ body {
     margin-right: 10px;
   }
 
-  .arrow-left {
+  .arrow-left_home {
     position: absolute;
     top: 343px;
     left: 223px;
   }
 
-  .arrow-right {
+  .arrow-right_home {
     position: absolute;
     top: 343px;
     right: 223px;
@@ -1473,7 +1475,7 @@ body {
     width: 298px;
     height: 54px;
     position: absolute;
-    top: 241px;
+    top: 253px;
     left: calc(50% - 298px / 2);
     z-index: 1000;
     background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
@@ -1553,7 +1555,7 @@ body {
 
   .backstage-subtitle {
     margin-top: 10px;
-    width: 217px;
+    /*  width: 217px; */
     height: 29px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -1584,7 +1586,7 @@ body {
     align-self: center;
   }
 
-  .arrow {
+  .arrow_home {
     display: none;
   }
 

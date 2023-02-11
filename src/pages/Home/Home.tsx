@@ -6,7 +6,7 @@ import '../Home/Home.scss';
 export default function Home() {
   const baseURL = ''; /* 'online-zoo-ts/' */
   return (
-    <div className="main-wrapper">
+    <div className="main-wrapper_home">
       <div className="wrapper-first-scr_home">
         <section className="first-section_home">
           <div className="ellips">
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
           </div>
           <div className="slider-wrapper">
-            <div className="arrow arrow-left">
+            <div className="arrow_home arrow-left_home">
               <svg
                 width="18"
                 height="10"
@@ -287,7 +287,7 @@ export default function Home() {
                 </NavLink>
               </li>
             </ul>
-            <div className="arrow arrow-right">
+            <div className="arrow_home arrow-right_home">
               <svg
                 width="18"
                 height="10"
