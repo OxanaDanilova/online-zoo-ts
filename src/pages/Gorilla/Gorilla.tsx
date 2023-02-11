@@ -31,10 +31,10 @@ export default function Gorilla() {
       <VideoSection
         title="Gorilla camera"
         videoLink={[
-          'https://www.youtube.com/embed/rgXWDk7rh4w',
-          'https://www.youtube.com/embed/rgXWDk7rh4w',
-          'https://www.youtube.com/embed/rgXWDk7rh4w',
-          'https://www.youtube.com/embed/rgXWDk7rh4w',
+          'https://www.youtube.com/embed/672cUSe69J0',
+          'https://www.youtube.com/embed/672cUSe69J0',
+          'https://www.youtube.com/embed/672cUSe69J0',
+          'https://www.youtube.com/embed/672cUSe69J0',
         ]}
       />
       <section className="information-section">
@@ -128,23 +128,6 @@ export default function Gorilla() {
                 other animals unless provoked. However, if they are provoked, they can be dangerous.
                 They can demonstrate aggression by charging towards perceived intruders. Typically,
                 they will not actually hit the intruder, but rush past, turn and then charge again.
-              </p>
-              <p className="information-description margin-top-twenty hide">
-                Gorillas use a combination of vocalizations, visual signals and scents to
-                communicate. They are considered relatively quiet compared to other primates, but do
-                have at least <span>25 recognized</span> vocalizations, including:
-                <ul className="information-description information-list hide">
-                  <li>
-                    Hooting: Can carry for a mile through the forest and is usually accompanied by
-                    display behavior such as chest beating, strutting, and vegetation slapping
-                  </li>
-                  <li>Screams: Sounds of alarm or warning</li>
-                  <li>Belches: Deep rumblings of contentment, comfort, or well-being</li>
-                  <li>Sharp Grunts: Used when discipline is required</li>
-                  <li>Whoop Barks: High-pitched barks denote curiosity</li>
-                  <li>Bark Grunt: Aggression</li>
-                  <li>Chuckles: Playfulness</li>
-                </ul>
               </p>
               <p className="information-description margin-top-twenty hide">
                 Infants have three distinct vocalizations; these are similar to the cries of a human

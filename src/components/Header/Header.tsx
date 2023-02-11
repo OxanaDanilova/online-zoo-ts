@@ -37,18 +37,23 @@ export default function Header() {
               </a>
             </li>
           </ul>
-          <svg
-            className="burger-menu"
-            width="18"
-            height="10"
-            viewBox="0 0 18 10"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect width="18" height="2" rx="1" fill="white" />
-            <rect y="4" width="18" height="2" rx="1" fill="white" />
-            <rect y="8" width="18" height="2" rx="1" fill="white" />
-          </svg>
+          <div className="menu-container burger-menu">
+            <input type="checkbox" />
+            <div></div>
+            <div></div>
+            <div></div>
+            <ul className="list-categories">
+              <li className="nav-menu-item">
+                <NavLink to="/">About</NavLink>
+              </li>
+              <li className="nav-menu-item">
+                <NavLink to="/map">Map</NavLink>
+              </li>
+              <li className="nav-menu-item">
+                <NavLink to="/panda">Zoos</NavLink>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>

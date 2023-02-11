@@ -6,3 +6,7 @@
 .App {
   text-align: center;
 }
+
+.body__container {
+  overflow-x: hidden;
+}
