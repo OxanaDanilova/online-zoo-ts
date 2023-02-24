@@ -123,6 +123,9 @@
       bottom: -60px;
       width: 52px;
       height: 52px;
+      &:checked ~ ul {
+        height: 420px;
+      }
     }
   }
 
