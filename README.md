@@ -1,6 +1,6 @@
 # Project name: Online zoo
 
-_**Online zoo** is basically a website created to simulate a visit to a zoo, and the visitors to this site can view exhibits about animals and their habitats. Many Zoos as well as schools have developed virtual zoos. For example, a virtual zoo will have articles, vieos and photos as exhibits instead of actual animals._
+_**Online zoo** is a website created to simulate a visit to a zoo, and the visitors to this site can view exhibits about animals and their habitats. Many Zoos as well as schools have developed virtual zoos. For example, a virtual zoo will have articles, vieos and photos as exhibits instead of actual animals._
 
 [Demo](https://oxanadanilova.github.io/online-zoo-ts/)
 
