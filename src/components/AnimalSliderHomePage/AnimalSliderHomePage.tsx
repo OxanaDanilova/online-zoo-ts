@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+
+import './AnimalSliderHomePage.scss';
 
 const animalArr = [
   {
@@ -61,10 +63,15 @@ const animalArr = [
 ];
 
 export default function AnimalSliderHomePage() {
+  const [slidePosition, setSlidePosition] = useState(0);
+
   const baseURL = ''; /* 'online-zoo-ts/' */
   return (
     <div className="slider-wrapper">
-      <div className="arrow_home arrow-left_home">
+      <div
+        className="arrow_home arrow-left_home"
+        onClick={() => setSlidePosition(slidePosition + 1)}
+      >
         <svg
           width="18"
           height="10"
@@ -84,7 +91,7 @@ export default function AnimalSliderHomePage() {
       <ul className="slider">
         {animalArr.map((animal, index) => {
           return (
-            <li key={index}>
+            <li key={index} style={{ transform: `translateX(${slidePosition * 107}%)` }}>
               <NavLink to={animal.link} className="slider-item">
                 <img
                   className="animal-foto"
@@ -103,7 +110,10 @@ export default function AnimalSliderHomePage() {
           );
         })}
       </ul>
-      <div className="arrow_home arrow-right_home">
+      <div
+        className="arrow_home arrow-right_home"
+        onClick={() => setSlidePosition(slidePosition - 1)}
+      >
         <svg
           width="18"
           height="10"
